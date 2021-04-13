@@ -9,7 +9,13 @@ import com.instructorrob.petshelter.models.Pet;
 
 @Repository
 public interface PetRepository extends CrudRepository<Pet, Long>{
+	//other custom methods or modifications of the CrudRepository methods
 	List<Pet> findAll();
+	
+	
+	
+	
+	
 	
 	
 
